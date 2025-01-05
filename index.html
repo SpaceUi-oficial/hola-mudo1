@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards Collection</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMPHgY5MlE9w00zpD/JnY4v7H/SW69UR4s2a7u"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="cards-page">
+      <div class="container">
+        <!-- Título Principal -->
+        <div class="containerTitle text-center my-5">
+          <h1 class="main-title text-4xl font-bold text-gray-800 mb-2">
+            Cards Collection
+          </h1>
+          <p class="subtitle text-lg text-gray-600">
+            Explora diferentes diseños de cards.
+          </p>
+        </div>
+
+        <!-- Grid de cards -->
+        <div class="cards-container">
+          <div class="card card-no-image">
+            <div class="card-content">
+              <h2 class="card-title">Card Without Image</h2>
+              <p class="card-description">
+                This is a description for a card without an image. Here, we
+                provide additional information that highlights the features and
+                benefits of the content being presented. This card serves as a
+                brief introduction to a more comprehensive topic, inviting users
+                to engage further and explore more in-depth details. Whether
+                you're looking for insights, tools, or resources, this card aims
+                to capture your interest and encourage interaction.
+              </p>
+            </div>
+            <div class="chip-container">
+              <span class="chip">Category 1</span>
+              <span class="chip">Category 2</span>
+              <span class="chip">Category 3</span>
+            </div>
+            <div class="button-group">
+              <button class="card-button">Action 1</button>
+              <button class="card-button">Action 2</button>
+            </div>
+          </div>
+
+          <div class="social-card">
+            <div class="social-card-image">
+              <img
+                src="https://via.placeholder.com/300x150"
+                alt="Imagen de la Card"
+              />
+            </div>
+            <h2 class="social-card-title">Título de la Card</h2>
+            <h3 class="social-card-subtitle">Subtítulo de la Card</h3>
+            <p class="social-card-description">
+              Esta es una breve descripción del contenido de la card. Aquí
+              puedes incluir información relevante sobre el tema.
+            </p>
+            <div class="social-card-buttons">
+              <button class="social-button facebook">
+                <!-- Icono de Facebook -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-facebook"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M15.117 0H.883C.396 0 0 .396 0 .883v14.234C0 15.604.396 16 1.117 16h14.234c.721 0 1.117-.396 1.117-.883V.883C16 .396 15.604 0 15.117 0zM8 15.534V8.641H6.55V6.5H8V5.5c0-1.07.514-2.5 2.5-2.5h1.5v2.5h-1.5c-.276 0-.5.224-.5.5v1.641H11.5l-.5 2.141h-2V15.534z"
+                  />
+                </svg>
+              </button>
+              <button class="social-button instagram">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-instagram"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                  />
+                </svg>
+              </button>
+              <button class="social-button twitter">
+                <!-- Icono de Twitter -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-twitter"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M5.026 15c6.037 0 9.34-5.006 9.34-9.338 0-.143 0-.285-.004-.427A6.686 6.686 0 0 0 16 3.55a6.59 6.59 0 0 1-1.889.518 3.293 3.293 0 0 0 1.444-1.816 6.67 6.67 0 0 1-2.084.794A3.296 3.296 0 0 0 7.874 6.726a9.325 9.325 0 0 1-6.769-3.42 3.287 3.287 0 0 0 1.016 4.391 3.264 3.264 0 0 1-1.486-.41v.041a3.287 3.287 0 0 0 2.635 3.221 3.283 3.283 0 0 1-1.484.056 3.285 3.285 0 0 0 3.065 2.281A6.585 6.585 0 0 1 1 13.544a9.286 9.286 0 0 0 5.029 1.476z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-card-image">
+              <img
+                src="https://via.placeholder.com/300x150"
+                alt="Imagen de la Card"
+              />
+              <div class="profile-card-user-image">
+                <img src="https://via.placeholder.com/80" alt="Usuario" />
+              </div>
+            </div>
+            <h2 class="profile-card-title">Nombre del Usuario</h2>
+            <p class="profile-card-description">
+              Esta es una breve descripción del usuario. Aquí puedes incluir
+              información relevante sobre su perfil.
+            </p>
+            <div class="profile-card-buttons">
+              <button class="social-button facebook">
+                <!-- Icono de Facebook -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-facebook"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M15.117 0H.883C.396 0 0 .396 0 .883v14.234C0 15.604.396 16 1.117 16h14.234c.721 0 1.117-.396 1.117-.883V.883C16 .396 15.604 0 15.117 0zM8 15.534V8.641H6.55V6.5H8V5.5c0-1.07.514-2.5 2.5-2.5h1.5v2.5h-1.5c-.276 0-.5.224-.5.5v1.641H11.5l-.5 2.141h-2V15.534z"
+                  />
+                </svg>
+              </button>
+              <button class="social-button instagram">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-instagram"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                  />
+                </svg>
+              </button>
+              <button class="social-button twitter">
+                <!-- Icono de Twitter -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-twitter"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M5.026 15c6.037 0 9.34-5.006 9.34-9.338 0-.143 0-.285-.004-.427A6.686 6.686 0 0 0 16 3.55a6.59 6.59 0 0 1-1.889.518 3.293 3.293 0 0 0 1.444-1.816 6.67 6.67 0 0 1-2.084.794A3.296 3.296 0 0 0 7.874 6.726a9.325 9.325 0 0 1-6.769-3.42 3.287 3.287 0 0 0 1.016 4.391 3.264 3.264 0 0 1-1.486-.41v.041a3.287 3.287 0 0 0 2.635 3.221 3.283 3.283 0 0 1-1.484.056 3.285 3.285 0 0 0 3.065 2.281A6.585 6.585 0 0 1 1 13.544a9.286 9.286 0 0 0 5.029 1.476z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="user-card">
+            <div class="user-card-image">
+              <img src="https://via.placeholder.com/100" alt="Usuario" />
+            </div>
+            <h2 class="user-card-title">Nombre del Usuario</h2>
+            <h3 class="user-card-subtitle">Cargo del Usuario</h3>
+            <hr class="divider" />
+            <p class="user-card-description">
+              Aquí va una descripción breve sobre el usuario. Este es un lugar
+              ideal para compartir información relevante sobre su experiencia o
+              habilidades.
+            </p>
+            <hr class="divider" />
+            <button class="user-card-button">Saber Más</button>
+          </div>
+
+          <div class="card custom-card">
+            <div class="custom-card-image">
+              <img
+                src="https://via.placeholder.com/200"
+                alt="Custom"
+                class="custom-card-image"
+              />
+            </div>
+            <div class="custom-card-content">
+              <h3 class="custom-card-difficulty-title">
+                Dificultad:{" "}
+                <span class="custom-card-difficulty-level">Difícil</span>
+              </h3>
+              <h2 class="custom-card-title">Título de la Card</h2>
+              <p class="custom-card-description">
+                Esta es una descripción más larga para la nueva card, que
+                incluye información adicional sobre el contenido que se presenta
+                aquí.
+              </p>
+              <div class="custom-card-button-container">
+                <button class="custom-card-button">Acción</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-image-bordered">
+            <img
+              src="https://via.placeholder.com/400"
+              alt="Card with image"
+              class="card-image"
+            />
+            <div class="card-content">
+              <h2 class="card-title">Card With Image</h2>
+              <p class="card-description">
+                This is a description for a card that includes an image.
+              </p>
+            </div>
+          </div>
+
+          <div class="blurred-image-card">
+            <img
+              src="https://via.placeholder.com/400x300"
+              alt="Imagen de Fondo"
+              class="bg-image"
+            />
+            <div class="overlay">
+              <h2 class="overlay-title">Título de la Card</h2>
+              <p class="overlay-description">
+                Esta es una breve descripción que aparece sobre la imagen.
+              </p>
+            </div>
+          </div>
+
+          <!-- Puedes agregar más cards personalizadas aquí -->
+        </div>
+
+        <!-- Sección de redes sociales -->
+        <div class="social-section">
+          <h1 class="blueprint-title text-3xl font-bold text-center mb-4">
+            Blueprint Codeworks
+          </h1>
+          <p class="social-text text-center text-gray-600 mb-6">
+            Síguenos en nuestras redes sociales
+          </p>
+          <div class="social-icons flex justify-center space-x-6">
+            <a href="https://twitter.com/tu-usuario" target="_blank">
+              <svg
+                class="icon"
+                aria-label="Twitter"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.609 1.794-1.577 2.163-2.724-.951.555-2.005.957-3.127 1.172-.895-.955-2.171-1.55-3.591-1.55-2.719 0-4.931 2.201-4.931 4.918 0 .387.045.765.127 1.124C7.691 8.095 4.066 6.13 1.64 3.161c-.427.731-.671 1.577-.671 2.485 0 1.719.873 3.233 2.192 4.128-.808-.026-1.568-.248-2.239-.616v.061c0 2.396 1.704 4.397 3.964 4.853-.415.112-.852.171-1.299.171-.317 0-.634-.031-.943-.088.634 1.975 2.475 3.417 4.65 3.457-1.707 1.336-3.847 2.134-6.161 2.134-.401 0-.794-.024-1.184-.072 2.198 1.413 4.805 2.236 7.598 2.236 9.097 0 14.065-7.525 14.065-14.065 0-.214 0-.426-.015-.637.964-.695 1.797-1.563 2.457-2.549l-.047-.021z"
+                ></path>
+              </svg>
+            </a>
+            <a href="https://github.com/tu-usuario" target="_blank">
+              <svg
+                class="icon"
+                aria-label="GitHub"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 0C5.373 0 0 5.373 0 12c0 5.308 3.438 9.8 8.205 11.387.6.112.793-.26.793-.577 0-.286-.01-1.238-.01-2.25-3.338.725-4.043-1.607-4.043-1.607-.546-1.384-1.334-1.754-1.334-1.754-1.093-.746.083-.73.083-.73 1.21.085 1.844 1.242 1.844 1.242 1.074 1.838 2.809 1.306 3.493.999.108-.775.42-1.306.763-1.606-2.665-.303-5.467-1.334-5.467-5.93 0-1.313.469-2.388 1.236-3.228-.124-.303-.535-1.528.117-3.176 0 0 1.008-.322 3.301 1.228A11.617 11.617 0 0112 4.69c1.026.004 2.054.138 3.012.404 2.293-1.55 3.301-1.228 3.301-1.228.653 1.648.242 2.873.118 3.176.768.84 1.236 1.915 1.236 3.228 0 4.605-2.805 5.623-5.471 5.93.43.371.825 1.101.825 2.223 0 1.605-.014 2.91-.014 3.299 0 .318.193.693.798.577C20.563 21.8 24 17.308 24 12c0-6.627-5.373-12-12-12z"
+                ></path>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/tu-usuario" target="_blank">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="100"
+                height="100"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"
+                ></path>
+              </svg>
+            </a>
+            <a href="https://www.tiktok.com/@tu-usuario" target="_blank">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="100"
+                height="100"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z"
+                ></path>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/tu-usuario" target="_blank">
+              <svg
+                class="icon"
+                aria-label="Facebook"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M22.675 0h-21.35C.6 0 0 .6 0 1.325v21.35C0 23.4.6 24 1.325 24h21.35C23.4 24 24 23.4 24 22.675v-21.35C24 .6 23.4 0 22.675 0zm-3.725 12h-3.425v10.65h-4.5V12h-2.1v-3.6h2.1V7.5c0-3.375 1.6-5.25 5.1-5.25l3.325.013v3.8h-2.4c-1.15 0-1.575.55-1.575 1.575v2.2h4.05l-.6 3.6z"
+                ></path>
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/c/tu-canal" target="_blank">
+              <svg
+                class="icon"
+                aria-label="YouTube"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M23.495 6.21a2.992 2.992 0 0 0-2.106-2.106C20.054 4 12 4 12 4s-8.054 0-9.389.104A2.992 2.992 0 0 0 .505 6.21A32.553 32.553 0 0 0 0 12c0 1.348.036 2.691.105 4.057a2.992 2.992 0 0 0 2.106 2.106C3.946 20 12 20 12 20s8.054 0 9.389-.104a2.992 2.992 0 0 0 2.106-2.106C23.964 14.691 24 13.348 24 12c0-1.348-.036-2.691-.105-4.057zM9.545 15.17V8.83l6.454 3.168-6.454 3.168z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
